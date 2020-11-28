@@ -1,0 +1,7 @@
+{
+  "name": "GEM-Skins",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
