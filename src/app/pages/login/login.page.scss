@@ -1,0 +1,41 @@
+ion-grid {
+  height: 100%;
+  background-color: #bd0f26;
+}
+.logos {
+  .logo-1 {
+    font-size: 110px;
+    font-family: fantasy;
+    font-weight: bolder;
+    font-style: italic;
+  }
+  .logo-2 {
+    font-size: 48px;
+    font-family: fantasy;
+  }
+}
+.content {
+  height: 100%;
+}
+.area {
+  .usuario,
+  .senha,
+  .botao {
+    margin-top: 10px;
+  }
+  .usuario,
+  .senha {
+    ion-input {
+      background-color: #fff;
+      border: 1px solid #484646;
+      border-radius: 5px;
+    }
+  }
+  .botao {
+    ion-button {
+      background-color: #000;
+      color: #fff;
+      border-radius: 5px;
+    }
+  }
+}
